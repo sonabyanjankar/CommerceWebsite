@@ -1,0 +1,503 @@
+﻿#main{
+	width: 100%;
+	height:100%;
+    background-position: center;
+    background-color:black;
+}
+.header{
+	height:10vh;
+	width:80%;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo{
+	height:50px;
+	width:190px;
+}
+#navbar{
+    position: relative;
+	flex:1;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+#navbar a {
+	font-size:medium;
+	text-decoration: none;
+	color:black;
+}
+
+
+#navbar a:hover {
+	font-size:large;
+	transform:scale(1.3);
+	text-decoration:underline;
+  
+}
+
+a.activePage{
+	background-color:#9966FF; 
+	color :black;
+	border-bottom : solid;
+	padding:0 1rem;
+	 border-width:4px;
+}
+
+.imagelist h4, .mainbanner h4{
+	background:black;
+	text-align:center;
+	font-size:xx-large;
+	font-family:"Lucida Handwriting";
+	color:#3CB371;
+}
+
+.banner {
+	
+	width:100%;
+	display:flex;
+	justify-content: center;
+}
+
+
+.parallax{
+
+background:url("images/parallaximg/image1.png")  fixed;
+background-position:center;
+
+}
+
+.content{
+padding-top:10px;
+padding-bottom:10px;
+width:1000px;
+height:400px;
+}
+
+.imagelist{
+
+width:100%;
+
+}
+
+.images{
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.imagelist img {
+height:330px;
+width:260px;	
+}
+
+
+#side h1{
+background-color:#3CB371;	
+text-align:center;
+}
+
+#a1, #a2, #a3{
+	height:400px;
+	width:400px;
+	
+}
+
+#side table{
+
+width:100%;
+font-size:x-large;
+border:thick green groove;
+margin-bottom:20px;
+font-style:italic;
+
+}
+
+#footer {
+	border-top:1px solid grey;
+	margin-top:1rem;
+}
+
+#footer table {
+width:100%;
+float:left;
+border:medium black;
+text-decoration: none;
+}
+
+#footer tr{
+	height:40px;
+	text-align:center;
+	text-decoration: none;
+	color:black;
+
+}
+#footer table a {
+	text-decoration:none;
+	color:black;
+
+}
+
+.container {
+	width:100%;
+	height:500px;
+	max-width:1200px;
+	border-style:ridge; 
+	padding:10px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.slideshowcontainer{
+	width:100%;
+	height:90%;
+
+	background-color:gray;
+	position:relative;
+}
+.container .slideshowcontainer .imageholder{
+	width:100%;
+	height:100%;
+	position:absolute;
+	
+}
+.container .slideshowcontainer .imageholder img{
+	width:100%;
+	height:100%;
+}
+.imageholder h4{
+	background:black;
+	text-align:center;
+	font-size:xx-large;
+	font-weight:bold;
+	font-family:"Lucida Handwriting";
+	color:#3CB371;
+	padding:0 auto;
+	margin:20px;
+	
+}
+#content1{
+	height:400px;
+	display:flex;
+	width:100%;
+	align-items: center;
+	justify-content: space-evenly;
+	padding:0 1rem;
+	
+}
+
+#content1 #im{
+	height:300px;
+	width:200px;	
+	padding:0 1 rem ;
+}
+
+
+
+#choice{
+	width:100%;
+	text-align:center;
+	padding-bottom:20px;
+
+
+}
+#choice h4 p, #choice h4{
+margin:0px auto;
+background-color:#3CB371;
+font-size:xx-large;
+text-align:center;
+padding:0 auto;
+
+}
+#choice p{
+display:inline-block;
+font-weight:bolder;
+border:medium;
+border-style:double green;
+text-align:center;
+	
+}
+#choice a{
+text-align:center;
+margin:30px;
+background-color:silver;
+font-size:large;
+border:medium green groove;
+padding:5px;
+
+}
+.parallaxmen{
+
+background:url("images/parallaximg/image4.png") fixed ;
+height:400px;
+}
+
+.image1{
+	height:100%;
+	display:flex;
+	justify-content:space-evenly;
+	align-items: center;
+}
+.image1 img {
+height:300px;
+width:200px;
+	
+}
+
+#text{
+	background-color:purple;
+	color:yellow;
+}
+.centermenu{
+	width:90%;
+	border:medium;
+	height:1320px;
+	padding:20px;
+	background-position:center;
+	margin-left:4%;
+}
+
+.rightmenu,.downmenu{
+	width:90%;
+	border:medium;
+	height:650px;
+	padding:20px;
+	background-position:center;
+	margin-left:2%;
+	padding-bottom:1%;
+	
+}
+.downmenu{
+	margin-bottom:3%;
+}
+
+.tablemenu {
+	display:flex;
+	justify-content: center;
+}
+.tablemenu img, .tablemenu1 img{
+	width:200px;
+	height:260px;
+	padding:25px;
+	
+}
+.text1{
+	background-color:purple;
+	color:orange;
+	margin:0px auto;
+	font-weight:bolder;
+	text-align:center;
+	font-size:x-large;
+}
+
+.parallaxaccess{
+
+background:url("images/parallaximg/image3.jpg") fixed ;
+	height:650px;
+	background-position:center;
+
+}
+
+
+/*Help webpage css starts*/
+
+.sale{
+	height:30px;
+	position:relative;
+	background-color:#D3D3D3;
+	width:100%;
+
+}
+.sale p a, .sale p{
+margin:3px auto;
+padding:0px;
+text-align:center;
+color:#8B0000;
+font-weight:bold;
+
+}
+
+#maindiv{
+	display: flex;
+	justify-content: space-evenly;
+	height:800px;
+}
+#center-content{
+	
+	width:50%;
+
+}
+#center-content h2 , #center-content2 h2{
+	color:Teal;
+	background:#DCDCDC;
+	
+}
+#center-content2{
+	
+	width:45%;
+
+}
+
+#size img{
+height:70%;
+width:85%;
+	
+}
+#lengthconverter{
+
+height:170px;
+
+}
+#outputcm{
+color:purple;
+border:medium black dotted;
+	
+}
+.parallaxlast{
+
+background:url("images/parallaximg/image4.png")  fixed;
+padding-top:10px;
+padding-left:30px;
+height:300px;}
+
+
+/*Accessories webpage css starts*/
+#mainslide{
+	background-position:center;
+	height:400px;
+	width:70%;
+	background:black;
+	display:flex;
+	margin:auto;
+	align-items: center;
+	justify-content: space-around;
+}
+.slideshowimg{
+	background:aqua;
+	width:65%;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+.slideshowimg #imgCover:hover {
+	transform:scale(1.2)
+}
+
+.smallimages{
+	background:orange;
+	width:30%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+	box-sizing:border-box;
+}
+
+
+
+.smallimages img{
+	cursor:pointer;
+	height:120px;
+	width:100px;
+	transition : all 0.5s ease-in-out;
+	margin:0.3rem;
+}
+.smallimages img:hover {
+	transform: translateY(-5px);
+}
+#imgCover {
+	height:350px;
+	width:55%;
+	margin: 1%;
+	
+}
+
+
+#mainscreen{
+background-image:url('images/background2.PNG');
+height:430px;
+width:90%;
+margin-left:6%;
+margin-bottom:1%;
+	
+}
+
+.text2{
+	width:95%;
+	display:inline-block;
+	text-align:center;
+	margin-left:2%;
+}
+.text2 h2{
+background-image:url('images/background1.PNG');
+color:green;
+text-align:center;
+	
+}
+.text2 a{
+	padding:20px 10px;
+	margin-top:1%;
+	color:maroon;
+	font-size:large;
+}
+
+#text3 h1{
+	background-image:url('images/background3.PNG');
+	background-position:center;
+	color:white;
+	padding-top:4%;
+	height:80px;
+	text-align:center;
+	
+	
+}
+#colorchange {
+	display:inline-block;
+	background-position:center;
+	margin-left:230px;
+	padding-bottom:20px;	
+}
+
+#form1{
+text-align:center;
+
+}
+
+#colorchange h4{
+	display:inline-block;
+	
+}
+ 
+#light,#dark,#darker{
+	background-image:repeating-linear-gradient( 45deg,paleturquoise,white 2%, turquoise);
+	margin:10px;
+	padding:5px 10px 5px 10px;
+}
+ #original{
+	margin:10px;
+	padding:5px 10px 5px 10px;
+
+}
+
+#centerbar{
+	background-color:#A52A2A;
+	height:580px;
+	width:800px;
+	display:inline-block;
+	text-align:center;
+	background-position:center;
+	margin-left:230px;
+	float:none;
+	margin-bottom:2%;
+}
+#centerbar a, #centerbar p{
+	color:white;
+	float:left;
+	margin:2%;
+}
+#centerbar ul li{
+	color:white;
+	float:left;
+	padding:1%;
+	margin:1%;
+}
+

@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>About Us</title>
+ <link rel = "stylesheet" type ="text/css" href = "main.css">    
+
+<script type="text/javascript">
+	const colors = {
+			light:"#FFFFCC",
+			dark:"#708D81",
+			darker:"#5F4B66",
+			original:"white"
+		}
+
+		function change(color,name){
+			document.body.style.backgroundColor=color;
+
+			const textSelector = document.querySelectorAll(".text2 a");
+			textSelector.forEach(textSelector=> {
+				textSelector.style.color = name=="darker"? "white":"maroon";
+				
+			})
+		
+		}
+		
+		const start = ()=> {
+			Object.keys(colors).map(function(key, index) { 
+	
+				const selector = document.getElementById(key);
+				selector.addEventListener("click", ()=>change(colors[key],key),false);
+				selector.addEventListener("mouseover", ()=>change(colors[key],key),false);		
+			});
+		}
+			
+		window.addEventListener("load", start, false);
+
+
+</script> 
+</head>
+<body>
+<div class="main">	
+			<div class="header">
+				<div>
+					<a href="index.html" ><img id ="logo" alt="Logo"  src="images/logo1.png"></a>
+
+				</div> 
+				<div id="navbar">
+					<a href="index.html">Women</a>
+					<a href="men.html">Men</a>
+					<a href="accessories.html">Accessories</a>
+					<a href="aboutus.html" class="navList activePage">About Us </a>
+					<a href="help.html">Help and Support</a>
+					<a href="contactus.html">Contact Us</a>
+					
+				</div>
+				<p></p>
+			</div>
+			
+			<div id="mainscreen">
+			
+			</div>
+			<div class="text2">
+			
+				<a>STELLAR is an international fast fashion e-commerce platform. 
+				The company mainly focuses on women's wear, but it also offers men's apparel, children's clothes, accessories, shoes, bags and other fashion items. 
+				STELLAR mainly targeted in America along with other consumer markets. 
+				The brand was founded in May 2013, and since then it has upheld the philosophy that "Providing convenient fashion for everyone." </a>
+				
+				<h2>Our Mission</h2>
+				<a>STELLAR prides itself on offering on-trend styles catering to both young women and teens, that won’t break the bank. 
+				STELLAR adheres to the concept that " Providing convenient fashion for everyone."
+				 STELLAR can stay on top of the latest fashion trends from around the globe while rapidly bringing these styles to market. 
+				 So, whether you're searching for boho dresses and graphic tees or patterned blouses and chic swimwear,
+				  STELLAR is the ultimate one-stop-shop for the modern yet economical fashionista. 
+				 It aims to promptly offer stylish quality products at appealing prices to every user in the world.</a>
+				
+				<h2>Where You Can Find Us</h2>
+				<a>STELLAR now can ship across the USA. With websites supporting the United States, STELLAR ships from one of its many globally positioned warehouses. 
+				STELLAR continues to thrive due in part to the company's values in controlling the excellence of in-house production.
+				 STELLAR aims to provide the highest value trendy pieces while also being dedicated to quality, value and service.
+				</a>
+			</div>	
+					
+			<div id="text3">
+				<h1>SOCIAL RESPONSIBILITY</h1>
+			</div>
+			<div id="colorchange">
+				<h4>Join us in our journey and support our family by changing the COLOR of this page ( Hover or Click on the options) </h4>
+				<form id ="form1" method="" action="">
+					<input type="button" value="Light" id="light">&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="button" value="Dark" id="dark"> &nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="button" value="Darker" id="darker">&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="button" value="Original" id="original">			
+				</form>	
+			
+			</div>
+				
+			<div id="centerbar">
+			
+				<a>Fair Labor Practices </a>
+				<p>We treat all of our employees like family by providing industry leading working condition.
+				 We are also proudly in compliane with strict fair labor standards set by the international organizations. 		 
+				</p>
+				
+				<a>Sustainability</a>
+				<p>We're connected with how climate changes will impact our planet's future. That's why we are among
+				the few fashion brands taking steps to mitigate our environmental impact. </p>
+				<a>Recycling Program</a>
+				<p>We are encouraging our customers to bring in unwanted clothes to our college campus event in exchange for 
+				STELLAR gift cards. The donated clothes are then refurbished and given to various charity. </p>
+				<a>#STELLAR Cares</a>	
+				<p>We believe that our brand's mission is to help and support the communities we are part of. 
+				STELLAR is dedicated to working alongside various initiativec and charitable partnerships to raise fundds and make impact 
+				on the lives around us .
+				</p>
+				<ul>
+				<li> Dress for the best </li>
+				<li> Find your dress princess</li>
+				<li> Fashion for Education</li>
+				</ul>
+									
+			</div>
+		
+
+			
+				<div id="footer">	
+				<table>
+					<tr>
+					<th><a href="aboutus.html">Company Info</a></th>
+					<th><a href="help.html">Help And Support</a></th>
+					<th><a href="contactus.html">Customer Care</a></th>
+					<th>Find us on</th>
+					</tr>
+					
+					<tr>
+					<td><a href="aboutus.html#mainscreen">About Stellar</a></td>
+					<td><a href="help.html#center-content">Shipping info</td>
+					<td><a href="contactus.html#contact">Contact us</a></td>
+					<td><a href="http://www.facebook.com"><img src="images/icon1.PNG" alt="icon1"></a> 
+						<a href="http://www.instagram.com"><img src="images/icon2.PNG" alt="icon2"></a>
+						<a href="http://www.twitter.com"><img src="images/icon3.PNG" alt="icon3"></a>
+						<a href="http://www.pinterest.com"><img src="images/icon4.PNG" alt="icon3"></a>
+						<a href="http://www.snapchat.com"><img src="images/icon5.PNG" alt="icon3"></a>
+					</td>
+					</tr>
+					
+					<tr>
+					<td><a href="aboutus.html#text3">Social Responsibility</a></td>
+					<td><a href="help.html#center-content2">How to Order</a></td>
+					<td><a href="contactus.html#mid">Customer Feedback</a></td>
+					</tr>
+					
+					<tr>
+					<td></td>
+					<td><a href="help.html#lengthconverter">Size Guide</a></td>
+					<td><a href="contactus.html#rewards">Rewards Program</a></td></tr>
+					<tr>
+					<td rowspan="6" colspan="3">&copy;2019-2020 UTA All Rights Reserved</td>
+					<td>#StayStellar </td>
+					</tr>
+					
+					
+				</table>
+	
+			</div>
+
+
+</div>
+
+</body>
+
+</html>
